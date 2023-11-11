@@ -179,13 +179,10 @@ export const indicatorStyle = "absolute w-[5px] h-[5px] top-[45px] left-[50%] bg
 
 
 
-export const headerButtonContainerStyle = "scale-0 fixed right-[0px] z-[4]"
+export const headerButtonContainerStyle = "scale-0 fixed right-[0px] z-[4] w-[50px] mx-[10vw] mt-[10vw]"
 
 
-export const buttonStyle = "relative m-[20px] w-[80px] h-[80px] rounded-[50%] bg-[#1C1D20] cursor-pointer flex items-center justify-center"
+export const buttonStyle = "relative m-[20px] w-full aspect-square rounded-[50%] bg-[#1C1D20] cursor-pointer flex items-center justify-center"
 
-export const burgerAfterStyle = "after:content-[_] after:block after:h-[1px] after:w-[40%] after:m-auto after:bg-white after:relative after:transition-transform after:duration-[0.3s] after:top-[-5px]"
-export const burgerBeforeStyle = "before:content-[_] before:block before:h-[1px] before:w-[40%] before:m-auto before:bg-white before:relative before:transition-transform before:duration-[0.3s] before:top-[5px]"
-export const burgerStyle = cn("w-full relative z-[1]", burgerAfterStyle, burgerBeforeStyle);
 
 export const burgetActiveStyle = "after:rotate-[45deg] after:top-[-1px] before:rotate-[-45deg] before:top-[0px]"
